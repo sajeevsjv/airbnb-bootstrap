@@ -5,17 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <style>
+        .navbar21:hover{
+            background-color:#DEE2E6;
+        }
+    </style>
 </head>
 <body>
-    <div class="navbar1 d-flex">
+    <div class="navbar1 container-fluid d-flex justify-content-between align-items-center p-2">
         <div class="navbar1-left">
-            <img src="" alt="">
-            <div>airbnb</div>
-    
+            <img src="./images/pngwing.com.png" style="height: 60px;width: 125px;" alt="">
         </div>
-        <div class="navbar1-center"></div>
-        <div class="navbar1-right"></div>
+        <div class="navbar1-center">
+            <span class="me-2">Stays</span>
+            <span class="border-0 bg-info rounded-pill p-2 bg-gradient">Experiences</span>
+        </div>
+        <div class="navbar1-right d-flex justify-content-between align-items-center">
+            <span>Airbnb your home</span>
+            <img src="./images/icons8-web-48.png" class="me-2 ms-2" style="height: 25px; width: 25px;" alt="">
+            <div class="profile d-flex justify-content-center align-items-center rounded-3 p-1 bg-info">
+                <div><img src="./images/icons8-menu-30.png" alt=""></div>
+                <div><img src="./images/icons8-profile-30.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar2-container container">
+        <div class="navbar2 d-flex w-60 border border-gray-400 align-items-center">
+            <div class="where navbar21 d-flex flex-column border w-25 rounded-pill border-gray-400 ps-3 py-2">
+                <span>Where</span>
+                <span class="text-muted">Search destinations</span>
+            </div>
+            <div class="checkin navbar21 d-flex flex-column border w-25 rounded-pill border-gray-400 ps-3 py-2">
+                <span>Check in</span>
+                <span class="text-muted">Add dates</span>
+            </div>
+            <div class="checkout navbar21 d-flex flex-column border w-25 rounded-pill border-gray-400 ps-3 py-2">
+                <span>Check out</span>
+                <span class="text-muted">Add dates</span>
+            </div>
+            <div class="who d-flex">
+                <div class="who1 d-flex flex-column">
+                    <span>Who</span>
+                    <span>Add dates</span>
+                </div>
+                <div class="who2 bg-red-500 rounded-circle "><img src="./images/icons8-search-50.png" alt=""></div>
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
 </body>
